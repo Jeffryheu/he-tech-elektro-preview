@@ -1,0 +1,113 @@
+HE-TECH ELEKTRO — WEBSITE
+==========================
+
+Statische site (pure HTML/CSS/JS, geen framework, geen build-stap nodig).
+Gewoon deze hele map uploaden naar een hosting-omgeving en het werkt.
+
+BESTANDSSTRUCTUUR
+------------------
+index.html         Home
+diensten.html       Diensten (groepenkasten, thuisbatterijen, laadpalen)
+zakelijk.html       Zakelijk
+over-ons.html       Over ons
+contact.html         Contact + offerteformulier
+css/styles.css       Alle styling (design tokens bovenaan het bestand)
+js/main.js           Mobiel menu, scroll-animaties, formulier-afhandeling
+assets/icons.svg     Icoon-sprite (SVG symbols, gebruikt via <use>)
+fonts/               Zelf-gehoste lettertypen (Space Grotesk, Manrope)
+
+NOG OPEN VOOR OPLEVERING
+-----------------------------------
+
+1. LOGO
+   Er staat nu een zelf opgebouwde bliksem-flits (SVG) + wordmark in de
+   header/footer van elke pagina, in de merkkleuren. Dit is GEEN het
+   echte logo-bestand van de klant, want dat was alleen als afbeelding
+   beschikbaar, niet als los bestand. Zoek in de HTML naar "brand-mark"
+   en "brand-word" om dit te vervangen door het echte logo (bijv. als
+   <img src="assets/logo.svg"> of <img src="assets/logo.png">).
+
+2. OFFERTEFORMULIER (contact.html)
+   Het formulier verstuurt nu naar een placeholder:
+     action="https://formspree.io/f/YOUR_FORM_ID"
+   Maak een gratis formulier aan op formspree.io, koppel het aan
+   info@he-techelektro.nl, en vervang YOUR_FORM_ID door het echte ID.
+   Zonder deze stap komen aanvragen nergens aan. (Zie de code-comment
+   direct boven het <form>-element in contact.html.)
+
+3. AFBEELDINGEN
+   Alle foto's zijn vervangen door Adobe Stock-beelden in
+   assets/foto/ (gecomprimeerd/verkleind, ~50-150 KB per stuk).
+   Enige uitzondering: het portret bij "Over ons" (over-ons.html)
+   staat nog op de picsum.photos-placeholder — dit wordt een echte
+   foto van Jeffry, nog aan te leveren.
+
+4. ALGEMENE VOORWAARDEN — JURIDISCHE CHECK
+   algemene-voorwaarden.html bevat een redelijke, generieke set
+   voorwaarden (offertes, garantie, aansprakelijkheid, betaling,
+   klachten, etc.), geschreven als tekst — niet juridisch getoetst.
+   Laat dit voor de zekerheid checken door een jurist of
+   brancheorganisatie (bijv. Techniek Nederland) voordat je het als
+   bindend beschouwt, met name het aansprakelijkheids- en
+   betalingsartikel.
+
+5. KLANTCASES & REVIEWS (hoogste impact, nog leeg)
+   Uit de zakelijke audit (20-08-2026) bleek dit het grootste gat
+   tegenover concurrenten: geen enkel afgerond project en geen
+   reviews op de site. Bewust NIET ingevuld met verzonnen content.
+   Zodra er 2-3 klanten akkoord zijn (foto + korte tekst mag) of er
+   Google-reviews binnenkomen, dit toevoegen aan zakelijk.html en/of
+   de homepage.
+
+6. CERTIFICERING ALS BEELDMERK
+   De trust-strip op de homepage toont NEN 3140 / VCA-VOL / InstallQ
+   nu als tekst. Officiële beeldmerken zijn op te vragen bij InstallQ
+   en VCA-Infra — zodra je die hebt, de <span class="trust-item"> in
+   index.html vervangen door de beeldmerken.
+
+7. WHATSAPP-NUMMER
+   Header, mobiel menu en footer linken nu naar wa.me/31617338523
+   (hetzelfde nummer als het vaste contactnummer). Als je liever een
+   los WhatsApp Business-nummer gebruikt, zoek in de HTML-bestanden
+   naar "wa.me/31617338523" om het te vervangen.
+
+AFGEROND N.A.V. DE ZAKELIJKE AUDIT (20-08-2026)
+-----------------------------------------------
+- Reactietijd storingsdienst geconcretiseerd naar "binnen 24 uur"
+  (zakelijk.html: H1-subtekst en de spec-card "Storingsdienst").
+- Merken toegevoegd: laadpalen (Enphase, Zaptec, SolarEdge, Alfen) op
+  diensten.html en zakelijk.html; thuisbatterijen (Enphase, SolarEdge)
+  op diensten.html. Zakelijke batterijopslag blijft bewust generiek
+  ("afhankelijk van uw situatie"), zoals aangegeven.
+- Laadpleinen-tekst uitgebreid met de samenwerking met Laadnet.nl
+  voor laadpas-beheer, verbruiksdata en facturatie.
+- Subsidieblok toegevoegd op zakelijk.html over de SPRILA-regeling
+  (RVO, 2026: MKB circa €800 per zakelijk AC-laadpunt vanaf 11 kW,
+  ook van toepassing op batterijopslag) — met disclaimer dat bedragen
+  kunnen wijzigen en verwijzing naar rvo.nl.
+- FAQ-sectie toegevoegd op zakelijk.html (netaansluiting, doorlooptijd,
+  subsidie, reactietijd), als <details>/<summary> zonder JS.
+- privacybeleid.html en algemene-voorwaarden.html toegevoegd en
+  gelinkt in de footer van elke pagina (zie punt 4 hierboven).
+- Privacy-akkoord-checkbox (verplicht) toegevoegd aan het
+  offerteformulier op contact.html, met link naar privacybeleid.html.
+- ERE-certificaten (voorheen HBE, per 2026 de nieuwe naam — geregeld
+  door de Nederlandse Emissieautoriteit) toegevoegd als extra
+  inkomstenbron bij laden: een spec-card op diensten.html en een
+  callout + FAQ-item op zakelijk.html, beide verwijzend naar de
+  ERE-portal van partner Laadnet.nl. Geen vast bedrag genoemd, want
+  de vergoeding per kWh wordt met Laadnet.nl afgesproken en beweegt
+  mee met de marktprijs.
+
+TECHNISCHE NOTITIES
+--------------------
+- Kleuren, fonts, radius e.d. staan als CSS-variabelen bovenin
+  css/styles.css (:root en de dark-mode media query).
+- De site ondersteunt automatisch light/dark mode op basis van de
+  systeeminstelling van de bezoeker.
+- Navigatie en footer zijn per pagina gedupliceerd (geen build-systeem),
+  dus wijzigingen aan het menu moeten in alle 7 HTML-bestanden worden
+  doorgevoerd (5 contentpagina's + privacybeleid.html +
+  algemene-voorwaarden.html).
+- Lokaal bekijken: open een terminal in deze map en run
+  "python -m http.server 8000", ga dan naar http://localhost:8000

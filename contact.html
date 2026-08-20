@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Offerte aanvragen | He-Tech Elektro</title>
+<meta name="description" content="Vraag vrijblijvend een offerte aan bij He-Tech Elektro in Gouda, of bel 06 17 33 85 23. Wij reageren binnen 1 werkdag.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%230b8a5c' d='M13 2 4 14h6l-1 8 9-12h-6l1-8Z'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand" aria-label="He-Tech Elektro, naar de homepage">
+      <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true" style="color:var(--color-green)"><use href="assets/icons.svg#icon-bolt"></use></svg>
+      <span class="brand-word"><span class="he-tech">HE-TECH</span><span class="elektro">Elektro</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Hoofdmenu">
+      <a href="index.html">Home</a>
+      <a href="diensten.html">Diensten</a>
+      <a href="zakelijk.html">Zakelijk</a>
+      <a href="over-ons.html">Over ons</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="nav-phone" href="tel:+31617338523">
+        <svg aria-hidden="true"><use href="assets/icons.svg#icon-phone"></use></svg>
+        06 17 33 85 23
+      </a>
+      <a class="nav-phone" href="https://wa.me/31617338523" target="_blank" rel="noopener">
+        <svg aria-hidden="true"><use href="assets/icons.svg#icon-chat"></use></svg>
+        WhatsApp
+      </a>
+      <a class="btn btn-primary nav-cta" href="#offerte-form">Offerte aanvragen</a>
+      <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="mobile-menu">
+        <svg aria-hidden="true"><use href="assets/icons.svg#icon-menu"></use></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html">Home</a>
+  <a href="diensten.html">Diensten</a>
+  <a href="zakelijk.html">Zakelijk</a>
+  <a href="over-ons.html">Over ons</a>
+  <a href="contact.html" aria-current="page">Contact</a>
+  <a class="btn btn-primary btn-block" href="#offerte-form">Offerte aanvragen</a>
+  <a class="mobile-phone" href="tel:+31617338523">
+    <svg aria-hidden="true"><use href="assets/icons.svg#icon-phone"></use></svg>
+    06 17 33 85 23
+  </a>
+  <a class="mobile-phone" href="https://wa.me/31617338523" target="_blank" rel="noopener">
+    <svg aria-hidden="true"><use href="assets/icons.svg#icon-chat"></use></svg>
+    WhatsApp
+  </a>
+</div>
+
+<main>
+
+  <section class="page-intro">
+    <div class="container">
+      <h1>Vraag een offerte aan</h1>
+      <p>Vul het formulier in of bel direct. We reageren binnen 1 werkdag, zakelijk of particulier.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split" style="align-items:start">
+
+      <div class="reveal">
+        <!--
+          Formspree: maak een gratis formulier aan op formspree.io, koppel het
+          aan info@he-techelektro.nl en vervang YOUR_FORM_ID hieronder door het
+          echte formulier-ID. Zonder die stap komt dit formulier niet aan.
+        -->
+        <form id="offerte-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="Nieuwe offerteaanvraag via he-techelektro.nl">
+
+          <div class="field" style="margin-bottom:18px">
+            <label>Ik ben</label>
+            <div class="radio-group">
+              <label class="radio-pill">
+                <input type="radio" name="type_klant" value="Particulier" checked>
+                <span>Particulier</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="type_klant" value="Zakelijk">
+                <span>Zakelijk</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-grid cols-2">
+            <div class="field">
+              <label for="naam">Naam *</label>
+              <input type="text" id="naam" name="naam" placeholder="Voor- en achternaam" required>
+              <span class="form-error">Vul uw naam in.</span>
+            </div>
+            <div class="field">
+              <label for="bedrijfsnaam">Bedrijfsnaam</label>
+              <input type="text" id="bedrijfsnaam" name="bedrijfsnaam" placeholder="Alleen bij zakelijke aanvraag">
+            </div>
+          </div>
+
+          <div class="form-grid cols-2" style="margin-top:18px">
+            <div class="field">
+              <label for="email">E-mailadres *</label>
+              <input type="email" id="email" name="email" placeholder="naam@voorbeeld.nl" required>
+              <span class="form-error">Vul een geldig e-mailadres in.</span>
+            </div>
+            <div class="field">
+              <label for="telefoon">Telefoonnummer *</label>
+              <input type="tel" id="telefoon" name="telefoon" placeholder="06 12 34 56 78" required>
+              <span class="form-error">Vul uw telefoonnummer in.</span>
+            </div>
+          </div>
+
+          <div class="field" style="margin-top:18px">
+            <label for="project">Type project *</label>
+            <select id="project" name="project" required>
+              <option value="">Kies een optie</option>
+              <option>Groepenkast</option>
+              <option>Thuisbatterij</option>
+              <option>Laadpaal</option>
+              <option>Onderhoud &amp; keuring</option>
+              <option>Anders</option>
+            </select>
+            <span class="form-error">Kies het type project.</span>
+          </div>
+
+          <div class="field" style="margin-top:18px">
+            <label for="bericht">Vertel kort over uw situatie</label>
+            <textarea id="bericht" name="bericht" placeholder="Bijvoorbeeld: type pand, gewenste planning, huidige situatie van de installatie."></textarea>
+          </div>
+
+          <div class="field" style="margin-top:20px">
+            <label class="checkbox-label">
+              <input type="checkbox" id="privacy_akkoord" name="privacy_akkoord" required>
+              <span>Ik ga akkoord met de <a href="privacybeleid.html" target="_blank" rel="noopener">privacyverklaring</a> van He-Tech Elektro. *</span>
+            </label>
+            <span class="form-error">Ga akkoord met de privacyverklaring om uw aanvraag te versturen.</span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block" style="margin-top:22px">Offerte aanvragen</button>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="reveal">
+        <div class="info-card">
+          <div class="info-row">
+            <svg aria-hidden="true"><use href="assets/icons.svg#icon-phone"></use></svg>
+            <div>
+              <h4>Telefoon</h4>
+              <a href="tel:+31617338523">06 17 33 85 23</a>
+            </div>
+          </div>
+          <div class="info-row">
+            <svg aria-hidden="true"><use href="assets/icons.svg#icon-mail"></use></svg>
+            <div>
+              <h4>E-mail</h4>
+              <a href="mailto:info@he-techelektro.nl">info@he-techelektro.nl</a>
+            </div>
+          </div>
+          <div class="info-row">
+            <svg aria-hidden="true"><use href="assets/icons.svg#icon-pin"></use></svg>
+            <div>
+              <h4>Adres</h4>
+              <p>Lage Gouwe 142, Gouda</p>
+            </div>
+          </div>
+          <div class="info-row">
+            <svg aria-hidden="true"><use href="assets/icons.svg#icon-badge"></use></svg>
+            <div>
+              <h4>KVK</h4>
+              <p>92912826</p>
+            </div>
+          </div>
+          <div class="info-row">
+            <svg aria-hidden="true"><use href="assets/icons.svg#icon-building"></use></svg>
+            <div>
+              <h4>Werkgebied</h4>
+              <p>Gouda en omstreken</p>
+            </div>
+          </div>
+        </div>
+        <div class="map-frame">
+          <iframe src="https://www.google.com/maps?q=Lage+Gouwe+142+Gouda&output=embed" title="Kaart met de locatie van He-Tech Elektro" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" aria-label="He-Tech Elektro">
+          <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true" style="color:#4fd6a3"><use href="assets/icons.svg#icon-bolt"></use></svg>
+          <span class="brand-word"><span class="he-tech">HE-TECH</span><span class="elektro">Elektro</span></span>
+        </a>
+        <p class="footer-tagline">Elektrotechnische installaties voor groepenkasten, laadpalen en thuisbatterijen in Gouda en omgeving.</p>
+      </div>
+      <div>
+        <div class="footer-heading">Navigatie</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="diensten.html">Diensten</a></li>
+          <li><a href="zakelijk.html">Zakelijk</a></li>
+          <li><a href="over-ons.html">Over ons</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">Contact</div>
+        <ul class="footer-links">
+          <li><a href="tel:+31617338523">06 17 33 85 23</a></li>
+          <li><a href="mailto:info@he-techelektro.nl">info@he-techelektro.nl</a></li>
+          <li>Lage Gouwe 142, Gouda</li>
+          <li>KVK 92912826</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 He-Tech Elektro. Alle rechten voorbehouden. KVK 92912826</span>
+      <div class="footer-legal">
+        <a href="privacybeleid.html">Privacybeleid</a>
+        <a href="algemene-voorwaarden.html">Algemene voorwaarden</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
