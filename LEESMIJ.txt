@@ -43,23 +43,31 @@ NOG OPEN VOOR OPLEVERING
    foto van Jeffry, nog aan te leveren.
 
 4. ALGEMENE VOORWAARDEN — JURIDISCHE CHECK
-   algemene-voorwaarden.html bevat een redelijke, generieke set
-   voorwaarden (offertes, garantie, aansprakelijkheid, betaling,
-   klachten, etc.), geschreven als tekst — niet juridisch getoetst.
-   Laat dit voor de zekerheid checken door een jurist voordat je het
-   als bindend beschouwt, met name het aansprakelijkheids- en
-   betalingsartikel.
+   algemene-voorwaarden.html is nu opgesplitst in twee delen: Deel A
+   voor zakelijke klanten en Deel B voor particuliere klanten
+   (consumenten), qua onderwerpen geïnspireerd op wat de ALIB 2024
+   (zakelijk) en AVIC (particulier) van Techniek Nederland typisch
+   regelen — waarschuwingsplicht, oplevering, garantietermijn,
+   bedenktijd, vooruitbetaling, aansprakelijkheid, etc. — maar in
+   eigen bewoordingen geschreven, GEEN kopie van die documenten
+   (auteursrechtelijk beschermd en alleen voor leden van Techniek
+   Nederland; He-Tech Elektro is daar geen lid van, zie hieronder).
+   Klachtenregeling verwijst naar InstallQ (i.p.v. de
+   Geschillencommissie Installerende Bedrijven, die uitsluitend
+   toegankelijk is voor Techniek Nederland-leden).
 
-   TIJDELIJK GEPROBEERD EN TERUGGEDRAAID (20-08-2026): op verzoek is
-   dit even vervangen door een verwijzing naar de ALIB 2024/AVIC-
-   voorwaarden van Techniek Nederland, in de veronderstelling dat je
-   daar lid van was. Dat bleek niet zo te zijn — die voorwaarden
-   mogen alleen door leden rechtsgeldig van toepassing worden
-   verklaard, dus dit is teruggedraaid naar de eigen tekst. Wil je dit
-   alsnog met echte branchevoorwaarden regelen, dan zijn er twee
-   opties: lid worden van Techniek Nederland (technieknederland.nl)
-   voor toegang tot ALIB 2024 (zakelijk) en AVIC (particulier), of de
-   huidige tekst laten toetsen door een jurist.
+   Niet juridisch getoetst — laat dit voor de zekerheid nog checken
+   door een jurist voordat je het als volledig waterdicht beschouwt,
+   met name de bedragen/termijnen (bijv. 25% vooruitbetaling, 18
+   maanden garantie, 14 dagen bedenktijd) en het
+   aansprakelijkheidsartikel.
+
+   Eerder (20-08-2026) is dit kort vervangen geweest door een directe
+   verwijzing naar ALIB 2024/AVIC, in de veronderstelling dat je lid
+   was van Techniek Nederland — dat bleek niet zo te zijn en is
+   teruggedraaid. Wil je alsnog de échte ALIB/AVIC-voorwaarden
+   gebruiken, word dan lid van Techniek Nederland
+   (technieknederland.nl).
 
 5. KLANTCASES & REVIEWS
    Uit de zakelijke audit (20-08-2026) bleek dit het grootste gat
