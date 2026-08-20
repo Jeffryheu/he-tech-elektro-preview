@@ -726,6 +726,9 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 
 .split-list svg { width: 19px; height: 19px; color: var(--color-green); flex-shrink: 0; margin-top: 2px; }
 
+.split-list a { text-decoration: underline; text-underline-offset: 2px; }
+.split-list a:hover { color: var(--color-green-dark); }
+
 .split-body .btn { margin-top: 26px; }
 
 /* ============================================================
