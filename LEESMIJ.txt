@@ -53,13 +53,21 @@ NOG OPEN VOOR OPLEVERING
 
 5. KLANTCASES & REVIEWS
    Uit de zakelijke audit (20-08-2026) bleek dit het grootste gat
-   tegenover concurrenten. Inmiddels staan er 2 echte reviews op de
-   homepage en zakelijk.html (sectie "Wat klanten zeggen"): René
-   Hauser (René's Kitchen) en een 5★-Werkspot-review. Nog geen foto's
-   bij de reviews, en de Werkspot-review linkt nog niet door naar het
-   echte Werkspot-profiel (URL niet aangeleverd) — voeg die link toe
-   zodra je hem hebt. Blijft een sterke plek voor meer cases zodra er
-   klanten akkoord zijn.
+   tegenover concurrenten. Inmiddels staan er op de homepage en
+   zakelijk.html (sectie "Klantcases & reviews"):
+     - René Hauser (René's Kitchen) — review + echte voor/na-foto's
+       van de groepenkast (toestemming gegeven).
+     - Een 5★-Werkspot-review (anoniem, Alphen aan den Rijn).
+     - Everlake Holding — referentiefoto van een vernieuwde
+       groepenkast, zonder citaat (toestemming gegeven).
+   OPEN PUNT: de aangeleverde Werkspot-link
+   (werkspot.nl/service-pro/reviews) lijkt een link naar het eigen
+   (ingelogde) dashboard, niet naar de publieke profielpagina die
+   bezoekers zonder account zien. Nog niet gebruikt op de site. Check
+   in een incognito-venster of de link ook uitgelogd werkt, of haal
+   de publieke profiellink op via "deel mijn profiel" in Werkspot, en
+   voeg die dan toe aan de Werkspot-review (zoek naar
+   "Werkspot-gebruiker" in index.html en zakelijk.html).
 
 6. CERTIFICERING ALS BEELDMERK
    De trust-strip op de homepage toont NEN 3140 / VCA-VOL / InstallQ
