@@ -51,13 +51,15 @@ NOG OPEN VOOR OPLEVERING
    bindend beschouwt, met name het aansprakelijkheids- en
    betalingsartikel.
 
-5. KLANTCASES & REVIEWS (hoogste impact, nog leeg)
+5. KLANTCASES & REVIEWS
    Uit de zakelijke audit (20-08-2026) bleek dit het grootste gat
-   tegenover concurrenten: geen enkel afgerond project en geen
-   reviews op de site. Bewust NIET ingevuld met verzonnen content.
-   Zodra er 2-3 klanten akkoord zijn (foto + korte tekst mag) of er
-   Google-reviews binnenkomen, dit toevoegen aan zakelijk.html en/of
-   de homepage.
+   tegenover concurrenten. Inmiddels staan er 2 echte reviews op de
+   homepage en zakelijk.html (sectie "Wat klanten zeggen"): René
+   Hauser (René's Kitchen) en een 5★-Werkspot-review. Nog geen foto's
+   bij de reviews, en de Werkspot-review linkt nog niet door naar het
+   echte Werkspot-profiel (URL niet aangeleverd) — voeg die link toe
+   zodra je hem hebt. Blijft een sterke plek voor meer cases zodra er
+   klanten akkoord zijn.
 
 6. CERTIFICERING ALS BEELDMERK
    De trust-strip op de homepage toont NEN 3140 / VCA-VOL / InstallQ

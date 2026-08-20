@@ -1199,6 +1199,59 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 }
 
 /* ============================================================
+   Testimonial / klantervaring
+   ============================================================ */
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 760px) {
+  .testimonial-grid { grid-template-columns: 1fr 1fr; }
+}
+
+.testimonial {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: clamp(28px, 4vw, 40px);
+  box-shadow: var(--shadow-sm);
+  max-width: 720px;
+}
+
+.testimonial-grid .testimonial { max-width: none; }
+
+.review-stars {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 16px;
+}
+
+.review-stars svg { width: 16px; height: 16px; color: #f0a93c; }
+
+.testimonial-quote {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.1rem, 1rem + 0.5vw, 1.3rem);
+  line-height: 1.55;
+  color: var(--color-ink);
+}
+
+.testimonial-author {
+  margin-top: 22px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.testimonial-name { font-weight: 700; font-size: 0.96rem; }
+.testimonial-role { font-size: 0.86rem; color: var(--color-muted); }
+
+/* ============================================================
    Footer legal links
    ============================================================ */
 
