@@ -42,18 +42,24 @@ NOG OPEN VOOR OPLEVERING
    staat nog op de picsum.photos-placeholder — dit wordt een echte
    foto van Jeffry, nog aan te leveren.
 
-4. ALGEMENE VOORWAARDEN — BELANGRIJK: MEESTUREN BIJ ELKE OFFERTE
-   algemene-voorwaarden.html verwijst nu naar de officiële voorwaarden
-   van Techniek Nederland (waar je lid van bent) i.p.v. zelfgeschreven
-   tekst: ALIB 2024 voor zakelijke klanten, AVIC voor particulieren.
-   De volledige tekst staat achter een ledenportaal/PDF, dus die kon
-   ik niet zelf overnemen — de pagina linkt er alleen naar door.
-   LET OP: Techniek Nederland stelt zelf dat het vermelden op de
-   website NIET voldoende is om de voorwaarden rechtsgeldig van
-   toepassing te laten zijn. Je moet ze (het toepasselijke document,
-   ALIB of AVIC) daadwerkelijk meesturen bij elke offerte — download
-   ze uit je ledenportaal op technieknederland.nl en voeg ze toe aan
-   je offerte-e-mails/PDF's.
+4. ALGEMENE VOORWAARDEN — JURIDISCHE CHECK
+   algemene-voorwaarden.html bevat een redelijke, generieke set
+   voorwaarden (offertes, garantie, aansprakelijkheid, betaling,
+   klachten, etc.), geschreven als tekst — niet juridisch getoetst.
+   Laat dit voor de zekerheid checken door een jurist voordat je het
+   als bindend beschouwt, met name het aansprakelijkheids- en
+   betalingsartikel.
+
+   TIJDELIJK GEPROBEERD EN TERUGGEDRAAID (20-08-2026): op verzoek is
+   dit even vervangen door een verwijzing naar de ALIB 2024/AVIC-
+   voorwaarden van Techniek Nederland, in de veronderstelling dat je
+   daar lid van was. Dat bleek niet zo te zijn — die voorwaarden
+   mogen alleen door leden rechtsgeldig van toepassing worden
+   verklaard, dus dit is teruggedraaid naar de eigen tekst. Wil je dit
+   alsnog met echte branchevoorwaarden regelen, dan zijn er twee
+   opties: lid worden van Techniek Nederland (technieknederland.nl)
+   voor toegang tot ALIB 2024 (zakelijk) en AVIC (particulier), of de
+   huidige tekst laten toetsen door een jurist.
 
 5. KLANTCASES & REVIEWS
    Uit de zakelijke audit (20-08-2026) bleek dit het grootste gat
