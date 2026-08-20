@@ -1307,6 +1307,8 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 
 .testimonial-name { font-weight: 700; font-size: 0.96rem; }
 .testimonial-role { font-size: 0.86rem; color: var(--color-muted); }
+.testimonial-role a { text-decoration: underline; text-underline-offset: 2px; }
+.testimonial-role a:hover { color: var(--color-green-dark); }
 
 /* ============================================================
    Footer legal links

@@ -60,14 +60,9 @@ NOG OPEN VOOR OPLEVERING
      - Een 5★-Werkspot-review (anoniem, Alphen aan den Rijn).
      - Everlake Holding — referentiefoto van een vernieuwde
        groepenkast, zonder citaat (toestemming gegeven).
-   OPEN PUNT: de aangeleverde Werkspot-link
-   (werkspot.nl/service-pro/reviews) lijkt een link naar het eigen
-   (ingelogde) dashboard, niet naar de publieke profielpagina die
-   bezoekers zonder account zien. Nog niet gebruikt op de site. Check
-   in een incognito-venster of de link ook uitgelogd werkt, of haal
-   de publieke profiellink op via "deel mijn profiel" in Werkspot, en
-   voeg die dan toe aan de Werkspot-review (zoek naar
-   "Werkspot-gebruiker" in index.html en zakelijk.html).
+   De Werkspot-review linkt nu door naar het publieke profiel
+   (werkspot.nl/profiel/he-tech-elektro) — de eerder aangeleverde
+   link bleek een dashboard-pad en is niet gebruikt.
 
 6. CERTIFICERING ALS BEELDMERK
    De trust-strip op de homepage toont NEN 3140 / VCA-VOL / InstallQ
