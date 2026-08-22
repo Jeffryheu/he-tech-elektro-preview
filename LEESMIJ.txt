@@ -36,11 +36,9 @@ NOG OPEN VOOR OPLEVERING
    direct boven het <form>-element in contact.html.)
 
 3. AFBEELDINGEN
-   Alle foto's zijn vervangen door Adobe Stock-beelden in
-   assets/foto/ (gecomprimeerd/verkleind, ~50-150 KB per stuk).
-   Enige uitzondering: het portret bij "Over ons" (over-ons.html)
-   staat nog op de picsum.photos-placeholder — dit wordt een echte
-   foto van Jeffry, nog aan te leveren.
+   Alle foto's staan in assets/foto/ (gecomprimeerd/verkleind). Het
+   portret bij "Over ons" is inmiddels ook vervangen door een echte
+   foto (portret-jeffry.jpg), geen placeholder meer.
 
 4. ALGEMENE VOORWAARDEN — JURIDISCHE CHECK
    algemene-voorwaarden.html is nu opgesplitst in twee delen: Deel A
