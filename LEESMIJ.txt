@@ -56,11 +56,44 @@ NOG OPEN VOOR OPLEVERING
    Geschillencommissie Installerende Bedrijven, die uitsluitend
    toegankelijk is voor Techniek Nederland-leden).
 
-   Niet juridisch getoetst — laat dit voor de zekerheid nog checken
-   door een jurist voordat je het als volledig waterdicht beschouwt,
-   met name de bedragen/termijnen (bijv. 25% vooruitbetaling, 18
-   maanden garantie, 14 dagen bedenktijd) en het
-   aansprakelijkheidsartikel.
+   KRITISCHE REVIEW UITGEVOERD (20-08-2026) — geen vervanging voor
+   een jurist, maar wel een aantal concrete verbeteringen doorgevoerd:
+     - Aansprakelijkheidscap (A8/B8) stond eerst op "het factuurbedrag"
+       — bij particuliere klanten juridisch kwetsbaar (kan als
+       onredelijk bezwarend worden gezien bij bijv. brand-/waterschade
+       door een klein klusje). Nu gekoppeld aan de uitkering van je
+       bedrijfsaansprakelijkheidsverzekering (je hebt bevestigd een
+       AVB te hebben) + expliciet uitgesloten voor dood/letsel. Dit
+       beschermt je beter, juist omdat het waarschijnlijker standhoudt
+       bij een rechter dan een te lage, willekeurige cap.
+     - Bedenktijd (B3) uitgebreid: je sluit vrijwel altijd bij de klant
+       thuis af, dus de wettelijke 14-dagen bedenktijd geldt bijna
+       altijd — niet als uitzondering. Toegevoegd: uitzondering voor
+       spoedreparaties (storingsdienst), en het vereiste modelformulier
+       voor herroeping als bijlage (verplichte, vooraf te verstrekken
+       disclosure — zonder correcte melding kan de bedenktijd wettelijk
+       oplopen tot 12 maanden).
+     - Expliciete rechtskeuze (Nederlands recht) toegevoegd aan Deel B.
+
+   NOG STEEDS NIET JURIDISCH GETOETST — laat vooral deze punten nog
+   door een jurist checken: de exacte bedragen/termijnen (25%
+   vooruitbetaling, 18 maanden garantie), en of de AVB-gekoppelde
+   aansprakelijkheidsclausule qua bewoordingen aansluit bij je
+   daadwerkelijke polisvoorwaarden.
+
+   OPERATIONEEL BELANGRIJK: het modelformulier voor herroeping en de
+   14-dagen bedenktijd moeten vóór het sluiten van de overeenkomst aan
+   de klant gemeld worden — alleen op de website/in de voorwaarden
+   laten staan is niet genoeg. Bespreek dit (kort) al tijdens de
+   schouw, of stuur het mee met de offerte.
+
+   Dezelfde twee delen staan ook als losse Word-documenten in
+   documenten/ (naast de website), zodat je ze kant-en-klaar bij een
+   offerte kunt meesturen zoals de wet vereist:
+     - "He-Tech Elektro - Algemene Voorwaarden - Zakelijke klanten.docx"
+     - "He-Tech Elektro - Algemene Voorwaarden - Particuliere klanten.docx"
+   Wijzig je de tekst op de website, werk dan ook deze documenten bij
+   (of vraag Claude dat te doen) zodat ze niet uit elkaar gaan lopen.
 
    Eerder (20-08-2026) is dit kort vervangen geweest door een directe
    verwijzing naar ALIB 2024/AVIC, in de veronderstelling dat je lid
