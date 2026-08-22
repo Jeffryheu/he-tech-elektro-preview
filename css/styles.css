@@ -1316,6 +1316,59 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .testimonial-role a:hover { color: var(--color-green-dark); }
 
 /* ============================================================
+   Lightbox (foto's vergroten)
+   ============================================================ */
+
+.lightbox-trigger { cursor: zoom-in; }
+
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(10, 14, 12, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s var(--ease);
+}
+
+.lightbox-overlay.is-open { opacity: 1; pointer-events: auto; }
+
+.lightbox-overlay img {
+  max-width: 92vw;
+  max-height: 88vh;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  object-fit: contain;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.lightbox-close svg { width: 20px; height: 20px; }
+.lightbox-close:hover { background: rgba(255, 255, 255, 0.22); }
+
+@media (prefers-reduced-motion: reduce) {
+  .lightbox-overlay { transition: none; }
+}
+
+/* ============================================================
    Footer legal links
    ============================================================ */
 

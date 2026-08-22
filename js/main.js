@@ -49,6 +49,72 @@
     revealEls.forEach(function (el) { el.classList.add("is-visible"); });
   }
 
+  // ---- Lightbox (foto's aanklikbaar vergroten) ------------------------------
+  var lightboxImgs = document.querySelectorAll(
+    ".testimonial-photos img, .case-card img, .split-media img, .hero-visual img"
+  );
+
+  if (lightboxImgs.length) {
+    var overlay = document.createElement("div");
+    overlay.className = "lightbox-overlay";
+    overlay.setAttribute("role", "dialog");
+    overlay.setAttribute("aria-modal", "true");
+    overlay.innerHTML =
+      '<button class="lightbox-close" aria-label="Sluiten" type="button">' +
+      '<svg aria-hidden="true"><use href="assets/icons.svg#icon-close"></use></svg>' +
+      "</button>" +
+      '<img alt="">';
+    document.body.appendChild(overlay);
+
+    var overlayImg = overlay.querySelector("img");
+    var lightboxCloseBtn = overlay.querySelector(".lightbox-close");
+    var lastFocused = null;
+
+    function openLightbox(img) {
+      overlayImg.src = img.currentSrc || img.src;
+      overlayImg.alt = img.alt || "";
+      overlay.classList.add("is-open");
+      document.body.style.overflow = "hidden";
+      lastFocused = document.activeElement;
+      lightboxCloseBtn.focus();
+    }
+
+    function closeLightbox() {
+      overlay.classList.remove("is-open");
+      document.body.style.overflow = "";
+      overlayImg.src = "";
+      if (lastFocused && typeof lastFocused.focus === "function") {
+        lastFocused.focus();
+      }
+    }
+
+    lightboxImgs.forEach(function (img) {
+      img.classList.add("lightbox-trigger");
+      img.setAttribute("tabindex", "0");
+      img.setAttribute("role", "button");
+      img.setAttribute("aria-label", "Vergroot afbeelding");
+      img.addEventListener("click", function () {
+        openLightbox(img);
+      });
+      img.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          openLightbox(img);
+        }
+      });
+    });
+
+    overlay.addEventListener("click", function (event) {
+      if (event.target === overlay) closeLightbox();
+    });
+    lightboxCloseBtn.addEventListener("click", closeLightbox);
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && overlay.classList.contains("is-open")) {
+        closeLightbox();
+      }
+    });
+  }
+
   // ---- Offerteformulier (Formspree) ----------------------------------------
   var form = document.querySelector("#offerte-form");
   if (form) {
