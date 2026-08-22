@@ -109,6 +109,14 @@ NOG OPEN VOOR OPLEVERING
      - Een 5★-Werkspot-review (anoniem, Alphen aan den Rijn).
      - VRLK Bedrijfshuisvesting — referentiefoto van een vernieuwde
        groepenkast, zonder citaat (toestemming gegeven).
+     - VvE Lage Gouwe — laadpaal in de parkeergarage, met 3 stapfoto's
+       (bevestigingsplaat, aansluiting, resultaat) en een echt citaat.
+       Op de laatste foto stond op de achtergrond de werkbus: het
+       kenteken is afgeplakt (privacy) en er is een eenvoudige
+       He-Tech Elektro-sticker overheen getekend op de zijkant van de
+       bus. Dit is een platte, met PowerShell/.NET getekende sticker
+       (logo + tekst), GEEN fotorealistische wrap-render — bij twijfel
+       even bekijken of dit netjes genoeg oogt voor de site.
    De Werkspot-review linkt nu door naar het publieke profiel
    (werkspot.nl/profiel/he-tech-elektro) — de eerder aangeleverde
    link bleek een dashboard-pad en is niet gebruikt.

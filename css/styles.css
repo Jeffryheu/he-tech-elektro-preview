@@ -1241,6 +1241,8 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
   margin-bottom: 22px;
 }
 
+.testimonial-photos-3 { grid-template-columns: 1fr 1fr 1fr; }
+
 .testimonial-photos figure {
   position: relative;
   margin: 0;
